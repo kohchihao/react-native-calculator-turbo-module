@@ -159,5 +159,13 @@
         }
       ]
     ]
+  },
+  "codegenConfig": {
+    "name": "RNCalculatorSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.calculator"
+    }
   }
 }
