@@ -24,6 +24,6 @@ public class CalculatorModule extends NativeCalculatorSpec {
 
     @Override
     public void add(double a, double b, Promise promise) {
-        CalculatorModuleImpl.add(a, b, promise)
+        CalculatorModuleImpl.add(a, b, promise);
     }
 }

@@ -11,18 +11,17 @@ import java.util.HashMap;
 
 public class CalculatorModule extends ReactContextBaseJavaModule {
 
-    CalculatorModule(ReactApplicationContext context) {
-        super(context);
-    }
+  CalculatorModule(ReactApplicationContext context) {
+    super(context);
+  }
 
-    @Override
-    public String getName() {
-        return CalculatorModuleImpl.NAME;
-;
-    }
+  @Override
+  public String getName() {
+    return CalculatorModuleImpl.NAME;
+  }
 
-    @ReactMethod
-    public void add(int a, int b, Promise promise) {
-        CalculatorModuleImpl.add(a, b, promise);
-    }
+  @ReactMethod
+  public void add(int a, int b, Promise promise) {
+    CalculatorModuleImpl.add(a, b, promise);
+  }
 }
